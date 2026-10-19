@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="2027 OneShot 拜年纪官方网站" />
+    <title>2027 OneShot 拜年纪</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = { theme: { extend: { colors: { twilight: '#11152f', niko: '#f6ad2c', lamp: '#ffdb68' }, boxShadow: { glow: '0 0 45px rgba(255, 219, 104, .24)' } } } };
+    </script>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body class="bg-twilight text-slate-100 antialiased">
+    <div class="site-sky fixed inset-0 -z-10"></div>
+    <header class="sticky top-0 z-20 border-b border-white/10 bg-[#11152f]/80 backdrop-blur-lg">
+      <nav class="mx-auto flex max-w-6xl items-center justify-between px-5 py-3 sm:px-8" aria-label="主导航">
+        <a class="flex items-center gap-3" href="index.html" aria-label="2027 OneShot 拜年纪首页"><img class="h-9 w-auto" src="assets/logo.webp" alt="OneShot" /><span class="hidden border-l border-white/20 pl-3 text-sm font-medium tracking-[.16em] text-lamp sm:block">2027 拜年纪</span></a>
+        <div class="flex items-center gap-1 text-sm font-medium sm:gap-4"><a class="rounded-full px-3 py-2 text-lamp transition hover:bg-white/10" href="#home">首页</a><a class="rounded-full px-3 py-2 text-slate-200 transition hover:bg-white/10 hover:text-lamp" href="archive.html">历年观影馆</a><a class="rounded-full bg-niko px-4 py-2 text-slate-950 transition hover:bg-lamp" href="comments.html">留言墙</a></div>
+      </nav>
+    </header>
+    <main id="home">
+      <section class="mx-auto grid min-h-[calc(100vh-65px)] max-w-6xl items-center gap-10 px-5 py-14 sm:px-8 lg:grid-cols-[1.05fr_.95fr] lg:py-20">
+        <div class="order-2 lg:order-1"><p class="mb-4 text-sm font-semibold tracking-[.3em] text-niko">2027 ONESHOT NEW YEAR SPECIAL</p><h1 class="max-w-3xl text-4xl font-black leading-tight text-white sm:text-6xl">把灯火带回<br /><span class="text-lamp">属于我们的夜晚</span></h1><p class="mt-6 max-w-xl text-base leading-8 text-slate-300 sm:text-lg">2027 OneShot 拜年纪即将开场。和旧友重逢，也和新的故事相见。</p><div class="mt-8 flex flex-wrap gap-3"><a class="rounded-full bg-niko px-6 py-3 font-bold text-slate-950 shadow-glow transition hover:-translate-y-0.5 hover:bg-lamp" href="#countdown">等待开场</a><a class="rounded-full border border-white/25 px-6 py-3 font-bold text-white transition hover:border-lamp hover:text-lamp" href="archive.html">回顾历年节目</a></div></div>
+        <div class="order-1 overflow-hidden rounded-3xl border border-white/15 bg-slate-950/40 shadow-2xl lg:order-2"><div class="aspect-video relative" role="img" aria-label="2027 OneShot 拜年纪正片敬请期待"><img class="h-full w-full object-cover opacity-80" src="assets/OneShot_game_teaser.webp" alt="OneShot 宣传图" /><div class="absolute inset-0 grid place-items-center bg-slate-950/30"><div class="text-center"><span class="mx-auto grid h-16 w-16 place-items-center rounded-full border border-lamp/70 bg-slate-950/60 pl-1 text-2xl text-lamp">▶</span><p class="mt-4 text-sm font-semibold tracking-[.18em] text-white">2027 · 敬请期待</p></div></div></div></div>
+      </section>
+      <section id="countdown" class="border-y border-white/10 bg-slate-950/30 px-5 py-16 sm:px-8"><div class="mx-auto max-w-5xl text-center"><p class="text-sm font-semibold tracking-[.24em] text-niko">COUNTDOWN</p><h2 class="mt-3 text-3xl font-black sm:text-4xl">距离拜年纪首播</h2><p class="mt-3 text-sm text-slate-400">2027 年 2 月 5 日 20:00（北京时间）</p><div class="mx-auto mt-9 grid max-w-3xl grid-cols-4 gap-2 sm:gap-5" data-countdown="2027-02-05T20:00:00+08:00" aria-live="polite"><div class="countdown-unit"><b data-unit="days">--</b><span>天</span></div><div class="countdown-unit"><b data-unit="hours">--</b><span>时</span></div><div class="countdown-unit"><b data-unit="minutes">--</b><span>分</span></div><div class="countdown-unit"><b data-unit="seconds">--</b><span>秒</span></div></div><p class="mt-6 min-h-6 text-sm text-lamp" data-countdown-message></p></div></section>
+      <section class="mx-auto max-w-6xl px-5 py-20 sm:px-8"><div class="flex flex-wrap items-end justify-between gap-4"><div><p class="text-sm font-semibold tracking-[.24em] text-niko">PROGRAM</p><h2 class="mt-2 text-3xl font-black">星光正在聚集</h2></div><a class="text-sm font-bold text-lamp hover:underline" href="comments.html">留下你的新年祝福 →</a></div><div class="mt-9 grid gap-5 md:grid-cols-3"><article class="glass-card p-6"><p class="text-3xl">✦</p><h3 class="mt-5 text-xl font-bold">精彩节目</h3><p class="mt-2 leading-7 text-slate-300">音乐、动画与更多惊喜，等待舞台的灯光亮起。</p></article><article class="glass-card p-6"><p class="text-3xl">◒</p><h3 class="mt-5 text-xl font-bold">历年回忆</h3><p class="mt-2 leading-7 text-slate-300">从 2023 到 2027，每一年的故事都在观影馆中。</p></article><article class="glass-card p-6"><p class="text-3xl">☀</p><h3 class="mt-5 text-xl font-bold">一起留言</h3><p class="mt-2 leading-7 text-slate-300">把想说的话写进灯火，送给每一位同行的旅人。</p></article></div></section>
+    </main>
+    <footer class="border-t border-white/10 px-5 py-8 text-center text-sm text-slate-400">OneShot 拜年纪 ·@ NiMro</footer>
+    <script defer src="js/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,6 @@
+.archive-background { position: fixed; inset: 0; z-index: -1; overflow: hidden; background: #10152f; }
+.archive-background::after { content: ''; position: absolute; inset: 0; background: linear-gradient(180deg, rgba(7, 10, 29, .42), rgba(11, 16, 38, .94)); }
+.archive-background__layer { position: absolute; inset: -3%; background-position: center; background-size: cover; opacity: 0; transform: scale(1.08); transition: opacity .8s ease, transform 1.4s ease; filter: saturate(.82) brightness(.7); }
+.archive-background__layer.is-active { opacity: 1; transform: scale(1); }
+.year-tab { border: 1px solid rgba(255,255,255,.22); border-radius: 999px; padding: .55rem 1rem; font-weight: 700; color: #e2e8f0; transition: .2s; }
+.year-tab:hover, .year-tab[aria-selected="true"] { border-color: #f6ad2c; background: #f6ad2c; color: #11152f; }
