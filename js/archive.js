@@ -12,7 +12,7 @@ const archives = {
       ['别再玩假ONESHOT了，试试这款眞OneShot', 'NiMro'],
       ['Prop被『制御』漫画', 'Story'],
       ['『你是个没用的孩子』手书 Sil×Kip', '青牌玲'],
-      ['我超!坎!', '浩然本质'],
+      ['我超!坎!', '呆萌浩然'],
       ['Niko与NPC们的告别', '莫子文艾']
     ], 
     credits: [
