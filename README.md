@@ -30,7 +30,7 @@
 ## 🌐 线上体验
 
 - **官方独立域名**：[https://osnewyear.fun](https://osnewyear.fun)
-- **备用镜像节点**：[https://2027oneshot-website.vercel.app](https://2027oneshot-website.vercel.app)
+- **备用镜像节点**：[https://2027oneshot-website.vercel.app](https://2027oneshot-website.vercel.app){需科学上网}
 
 ---
 
